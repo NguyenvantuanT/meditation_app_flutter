@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:meditation_app/components/app_elevated_button.dart';
 import 'package:meditation_app/components/app_text_styte.dart';
+import 'package:meditation_app/pages/choose_topic_page.dart';
 import 'package:meditation_app/themes/themes.dart';
 
 class WecomePage extends StatefulWidget {
@@ -68,7 +70,17 @@ class _WecomePageState extends State<WecomePage> {
                     child: Image.asset("assets/wecome_images/bg2.png"),
                   ),
                 ),
-                Flexible(child: ElevatedButton(child:Text("GET START") , onPressed: () {} ,))
+                Flexible(
+                  child: AppElevatedButton(
+                  text: "GET STARTED",
+                  color: Colors.white,
+                  height: 60,
+                  textColor: Colors.black,
+                  onPressed: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) =>const ChooseTopicPage())),
+                ))
               ],
             ),
           ),
