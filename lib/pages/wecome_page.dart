@@ -48,6 +48,7 @@ class _WecomePageState extends State<WecomePage> {
                         text: "to Silent Moon",
                         color: kColorLightYellow,
                         fontSize: 25,
+                        fontWeight: FontWeight.w100,
                       ),
                       SizedBox(height: 8),
                       AppTextStyte(

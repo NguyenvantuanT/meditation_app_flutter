@@ -21,3 +21,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/wecome_images/
+    - assets/choose_topic/
