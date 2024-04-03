@@ -1,6 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:meditation_app/pages/reminder_page.dart';
 import 'package:meditation_app/pages/wecome_page.dart';
 
 void main() => runApp(
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       builder: DevicePreview.appBuilder,
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
-      home: const WecomePage(),
+      home: const ReminderPage(),
     );
   }
 }
