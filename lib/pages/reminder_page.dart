@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app/components/app_elevated_button.dart';
 import 'package:meditation_app/components/app_text_styte.dart';
-import 'package:meditation_app/pages/home_page.dart';
+import 'package:meditation_app/pages/home_router/router_page.dart';
 
 class ReminderPage extends StatefulWidget {
   const ReminderPage({super.key});
@@ -133,7 +133,7 @@ class _ReminderPageState extends State<ReminderPage> {
                       text: "SAVE",
                       height: 60,
                       textColor: Colors.white,
-                      onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const HomePage()))),
+                      onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const RouterPage()))),
                   const SizedBox(height: 10),
                   const Text("NO THANKS")
                 ],
