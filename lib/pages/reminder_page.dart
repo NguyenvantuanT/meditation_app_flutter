@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app/components/app_elevated_button.dart';
 import 'package:meditation_app/components/app_text_styte.dart';
-import 'package:meditation_app/pages/home_router/router_page.dart';
+import 'package:meditation_app/pages/router/router_page.dart';
 
 class ReminderPage extends StatefulWidget {
   const ReminderPage({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:meditation_app/pages/home_router/home_page.dart';
-import 'package:meditation_app/pages/home_router/test.dart';
+import 'package:meditation_app/pages/router/home_page.dart';
+import 'package:meditation_app/pages/router/sleep_page.dart';
 import 'package:meditation_app/themes/themes.dart';
 
 class RouterPage extends StatefulWidget {
@@ -21,8 +21,8 @@ class _RouterPageState extends State<RouterPage> {
       body: PageView(
         controller: _pageController,
         children:const [
-          HomePage(),
-          Test(),
+          HomePage(), 
+          SleepPage(),
           HomePage(),
           HomePage(),
           HomePage(),
