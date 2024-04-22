@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:meditation_app/components/app_siverbar.dart';
 import 'package:meditation_app/components/app_text_styte.dart';
 import 'package:meditation_app/repos/repo.dart';
 import 'package:meditation_app/themes/themes.dart';
